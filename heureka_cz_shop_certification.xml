@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="pcv" method="upgrade" version="4.0">
+	<name>plg_pcv_heureka_cz_shop_certification</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>01/09/2022</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>4.0.4</version>
+	<description>PLG_PCV_HEUREKA_CZ_SHOP_CERTIFICATION_DESCRIPTION</description>
+	<projectName>PhocaCartViewHeurekaShopCertificationPlugin</projectName>
+
+	<files>
+		<folder>helpers</folder>
+		<filename plugin="heureka_cz_shop_certification">index.html</filename>
+		<filename plugin="heureka_cz_shop_certification">manifest.xml</filename>
+		<filename plugin="heureka_cz_shop_certification">heureka_cz_shop_certification.php</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_heureka_cz_shop_certification.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcv_heureka_cz_shop_certification.sys.ini</language>
+	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_heureka_cz_shop_certification.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcv_heureka_cz_shop_certification.sys.ini</language>
+		</languages>
+	</administration>
+	<form>
+		<config>
+			<fields name="params" addfieldpath="/administrator/components/com_phocacart/models/fields">
+			<fieldset name="basic" label="PLG_PCV_HEUREKA_CZ_SHOP_CERTIFICATION_BASIC_OPTIONS" group="pcv">
+				<field name="heureka_api_key" type="text" default="" class="inputbox" size="40" label="PLG_PCV_HEUREKA_CZ_SHOP_CERTIFICATION_FIELD_API_KEY_LABEL" description="PLG_PCV_HEUREKA_CZ_SHOP_CERTIFICATION_FIELD_API_KEY_DESC"/>
+			</fieldset>
+			</fields>
+		</config>
+
+</form>
+	
+
+	<updateservers>
+		<server type="extension" name="PLG_PCV_HEUREKA_CZ_SHOP_CERTIFICATION" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartViewHeurekaShopCertificationPlugin/main/manifest.xml]]></server>
+	</updateservers>
+</extension>

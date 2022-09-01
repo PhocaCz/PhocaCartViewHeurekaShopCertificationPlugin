@@ -1,0 +1,19 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaCartViewHeurekaShopCertificationPlugin",
+	"extensionName": "Phoca Cart View Heureka.cz Shop Certification Plugin",
+	"projectInitials" : "PC",				  
+	"description": "Phoca Cart View - Heureka.cz Shop Certification Plugin - plugin that adds the Heureka.cz Shop Certification code when the order is successfully completed in Phoca Cart",
+	"projectUrl": "https://www.phoca.cz/phocacart-extensions/2-plugins/75-phoca-cart-view-heureka-cz-shop-certification-plugin",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/115-phoca-cart",
+	"projectMainComponent": "Phoca Cart",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocacart-joomla-ecommerce",
+	"projectDemo" : {
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacart4demo/"
+	},
+	"projectColor": "#129ed9",
+	"projectBranch": "main"
+}
