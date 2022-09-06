@@ -78,7 +78,7 @@ class plgPCVHeureka_cz_shop_certification extends CMSPlugin
 
 					// Add products using ITEM_ID (your products ID)
 					foreach ($orderProducts as $k => $v) {
-						$shopCertification->addProductItemId((int)$v['id']);
+						$shopCertification->addProductItemId((int)$v['product_id']);
 					}
 
 					// And finally send the order to our service.
